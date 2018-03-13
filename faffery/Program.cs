@@ -73,6 +73,8 @@ namespace DemoCsharp
             int num1 = Convert.ToInt32(Console.ReadLine());
             int num2 = Convert.ToInt32(Console.ReadLine());
 
+            Console.WriteLine("start the faffery"); // a change - a second change 
+
             int iAnswer = pAdder(num1, num2);
             Console.WriteLine("iAnswer = {0}", iAnswer);
 
